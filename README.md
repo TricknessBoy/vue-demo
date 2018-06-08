@@ -1,4 +1,4 @@
-# vue-demo
+# vue-demo 基于vue，自己测试用的demo
 
 > A Vue.js project
 
@@ -17,5 +17,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+
+# src/demos 目录是每日vue的demo测试目录
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
