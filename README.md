@@ -18,6 +18,7 @@ npm run build
 npm run build --report
 
 # src/demos 目录是每日vue的demo测试目录
+src/components/SimpleSwitch 简单的开关插件
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
