@@ -1,8 +1,10 @@
 <template>
-  <div>
-    <SimpleSwitch v-model="val"></SimpleSwitch>
-    <div class="btn">{{text}}</div>
-  </div>
+  <keep-alive>
+    <div class="switch-box">
+      <SimpleSwitch v-model="val"></SimpleSwitch>
+      <div class="btn">{{text}}</div>
+    </div>
+  </keep-alive>
 </template>
 
 <script>

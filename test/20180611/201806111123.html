@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+          content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=yes">
+    <meta name="format-detection" content="email=no">
+</head>
+<body>
+<script src="../../node_modules/vue/dist/vue.js"></script>
+<script>
+  var vm = new Vue({
+    data: { a: 1 },
+    computed: {
+      // 仅读取
+      aDouble: function () {
+        return this.a * 2
+      },
+      // 读取和设置
+      aPlus: {
+        get: function () {
+          return this.a + 1
+        },
+        set: function (v) {
+          this.a = v - 1
+        }
+      }
+    }
+  });
+
+  vm.aPlus;   // => 2
+  vm.aPlus = 3;
+  console.log(vm.aPlus); // => 3
+  vm.a ;      // => 2
+  vm.aDouble; // => 4
+</script>
+</body>
+</html>

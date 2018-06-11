@@ -7,7 +7,8 @@
           <router-link :to="{name:'list',params:item}">标题：{{item.title}}</router-link>
         </li>
       </ul>
-      <router-link :to="{path:'/demo/20180609'}">2018年06月09日</router-link>
+      <div class="list"><router-link :to="{path:'/demo/20180609'}">2018年06月09日-简单开关</router-link></div>
+      <div class="list"><router-link :to="{path:'/demo/20180610'}">2018年06月10日-简单Tab切换</router-link></div>
     </div>
   </div>
 </template>
@@ -45,5 +46,8 @@ export default {
   }
   .btn{
     margin-left: 10px;
+  }
+  .list{
+    width: 100%;
   }
 </style>
