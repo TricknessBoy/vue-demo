@@ -21,12 +21,12 @@ const router = new Router({
     },
     {
       path: '/demo/20180609',
-      name: 'demo',
+      name: 'demo20180609',
       component: Demo20180609
     },
     {
       path: '/demo/20180610',
-      name: 'demo',
+      name: 'demo20180610',
       component: Demo20180610
     }
   ]
