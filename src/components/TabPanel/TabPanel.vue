@@ -10,11 +10,11 @@
 
 <script>
 export default {
-  name: "TabPanel",
+  name: 'TabPanel',
   props: {
     infs: {
       type: Object,
-      default: function(){
+      default: function () {
         return {
           tabColor: 'tab-red',
           tabTitle: '',
@@ -29,18 +29,20 @@ export default {
     }
   },
   watch: {
-    infs() {
+    infs () {
       this.tabDatas = this.infs
     }
   },
-  created(){
+  created () {
     this.tabDatas = this.infs
   }
-/*  computed: {
+/*
+computed: {
     tabDatas: function () {
       return this.infs
     }
-  }*/
+  }
+  */
 }
 </script>
 

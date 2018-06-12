@@ -12,42 +12,42 @@
 </template>
 
 <script>
-import TabPanel from '@/components/TabPanel/TabPanel';
+import TabPanel from '@/components/TabPanel/TabPanel'
 
 const obj = {
-  'red' : {
+  'red': {
     actived: 'red',
-    title: "11111",
-    content: "这是内容111111"
+    title: '11111',
+    content: '这是内容111111'
   },
-  'green' : {
+  'green': {
     actived: 'green',
-    title: "22222",
-    content: "这是内容222222"
+    title: '22222',
+    content: '这是内容222222'
   },
-  'blue' : {
+  'blue': {
     actived: 'blue',
-    title: "33333",
-    content: "这是内容333333"
+    title: '33333',
+    content: '这是内容333333'
   }
 }
 
 export default {
-  name: "Demo20180610",
+  name: 'Demo20180610',
   data () {
-      return {
-        currentTab: TabPanel,
-        actived: 'red',
-        tabDatas: obj['red']
-      }
+    return {
+      currentTab: TabPanel,
+      actived: 'red',
+      tabDatas: obj['red']
+    }
   },
   components: {
     TabPanel
   },
   methods: {
-    toggleTab: function(ev, tabName) {
-      this.actived = tabName;
-      this.tabDatas = obj[tabName];
+    toggleTab: function (ev, tabName) {
+      this.actived = tabName
+      this.tabDatas = obj[tabName]
     }
   }
 }
