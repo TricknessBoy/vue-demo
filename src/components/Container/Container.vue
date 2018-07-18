@@ -11,6 +11,9 @@
       <div class="list"><router-link :to="{path:'/demo/20180610'}">2018年06月10日-简单Tab切换</router-link></div>
       <div class="list"><router-link :to="{path:'/demo/20180612'}">2018年06月12日-简单轮播图</router-link></div>
       <div class="list"><router-link :to="{path:'/demo/20180718'}">2018年07月18日-MintUI之Toast组件</router-link></div>
+        <div class="list">
+            <router-link :to="{path:'/demo/20180718/scss'}">2018年07月18日-Scss之Toast组件</router-link>
+        </div>
     </div>
   </div>
 </template>
