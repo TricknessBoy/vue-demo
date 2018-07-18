@@ -5,6 +5,7 @@ import Page from '@/components/Page/Page'
 import Demo20180609 from '@/demos/Demo20180609/Demo20180609'
 import Demo20180610 from '@/demos/Demo20180610/Demo20180610'
 import Demo20180612 from '@/demos/Demo20180612/Demo20180612'
+import Demo20180718 from '@/demos/MintUITest/Toast20180718'
 
 Vue.use(Router)
 
@@ -34,6 +35,11 @@ const router = new Router({
       path: '/demo/20180612',
       name: 'demo20180612',
       component: Demo20180612
+    },
+    {
+      path: '/demo/20180718',
+      name: 'demo20180718',
+      component: Demo20180718
     }
   ]
 })
