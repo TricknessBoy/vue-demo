@@ -1,7 +1,167 @@
+/* CSS Reset*/
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
+  -webkit-text-size-adjust: none
+}
 html {
+  font-family: "微软雅黑", "Helvetica Neue", Helvetica, STHeiTi, Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   font-size: 62.5%;
 }
 
 body {
-  font-size: 100%;
+  background: #e6e6e6;
+  -webkit-overflow-scrolling: touch;
+  /* 流畅滚动 */
 }
+
+header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th {
+  text-align: left;
+  font-weight: normal;
+}
+
+html, body, fieldset, img, iframe, abbr {
+  border: 0;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+[hidefocus], summary {
+  outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+}
+
+sup, sub {
+  font-size: 83%;
+}
+
+pre, code, kbd, samp {
+  font-family: inherit;
+}
+
+q:before, q:after {
+  content: none;
+}
+
+textarea {
+  overflow: auto;
+  resize: none;
+}
+
+label, summary {
+  cursor: default;
+}
+
+a, button {
+  cursor: pointer;
+}
+
+del, ins, u, s, a, a:hover {
+  text-decoration: none;
+}
+
+body, textarea, input, button, select, keygen, legend {
+  color: #333;
+  outline: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #ccc;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #ccc;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+a {
+  background: transparent;
+  text-decoration: none;
+  color: #000;
+}
+
+a:active {
+  outline: 0;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+a,
+img {
+  -webkit-touch-callout: none;
+  /*禁止长按链接与图片弹出菜单*/
+}
+
+body * {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+}
+
+input, textarea, select {
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  overflow: hidden;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+/* End hide from IE-mac */
+/*Reset End*/
