@@ -59,10 +59,6 @@ module.exports = {
           name: utils.assetsPath('img/[name].[hash:7].[ext]')
         }
       },
-		{
-			test: /\.scss$/,
-			loaders: ['style', 'css', 'scss']
-		},
       {
         test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: 'url-loader',

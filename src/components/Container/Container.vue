@@ -19,7 +19,7 @@
             <div class="list">
                 <router-link :to="{path:'/demo/20180718'}">2018年07月18日-MintUI之Toast组件</router-link>
             </div>
-            <div class="list">Ω
+            <div class="list">
                 <router-link :to="{path:'/demo/20180718/scss'}">2018年07月18日-Scss之Toast组件</router-link>
             </div>
         </div>
